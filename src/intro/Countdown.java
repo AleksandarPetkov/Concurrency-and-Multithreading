@@ -21,7 +21,7 @@ public class Countdown {
 
         //In this case we use instance variable and result is completely different
         //Because both threads shares same instance object and access same resources
-        //We can fix that with 'synchronized' keyword 
+        //We can fix that with 'synchronized' keyword
         for (index = 10; index > 0; index--) {
             System.out.println(color +"Thread "+ Thread.currentThread().getName() + " i = "+ index);
         }
