@@ -18,7 +18,6 @@ public class RunnableSync1 implements Runnable{
         System.out.println(threadName + " attempting to lock Resource 1");
         synchronized(lock1) {
             System.out.println(threadName + " locked Resource 1");
-
             try {
                 Random random = new Random();
                 Thread.sleep(random.nextInt(5000));
