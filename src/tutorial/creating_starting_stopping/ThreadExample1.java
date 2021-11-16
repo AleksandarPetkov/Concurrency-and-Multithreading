@@ -1,4 +1,4 @@
-package tutorial.dreating_starting_stopping;
+package tutorial.creating_starting_stopping;
 
 public class ThreadExample1 {
 
